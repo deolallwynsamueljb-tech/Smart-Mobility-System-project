@@ -1,0 +1,120 @@
+{
+  "corridors": [
+    {
+      "id": "blue",
+      "name": "Blue Line",
+      "route": "Washermanpet ↔ Airport",
+      "weekday": {
+        "firstTrain": {
+          "fromAirport": "04:51",
+          "fromWashermanpet": "04:56"
+        },
+        "lastTrain": {
+          "fromAirport": "23:00",
+          "fromWashermanpet": "23:00"
+        },
+        "frequency": {
+          "peak": 6,
+          "nonPeak": 7,
+          "extended": 15
+        },
+        "peakHours": ["08:00-11:00", "17:00-20:00"],
+        "nonPeakHours": ["05:00-08:00", "11:00-17:00", "20:00-22:00"],
+        "extendedHours": ["22:00-23:00"]
+      },
+      "saturday": {
+        "firstTrain": {
+          "fromAirport": "04:51",
+          "fromWashermanpet": "04:56"
+        },
+        "lastTrain": {
+          "fromAirport": "23:00",
+          "fromWashermanpet": "23:00"
+        },
+        "frequency": {
+          "peak": 6,
+          "nonPeak": 7,
+          "extended": 15
+        },
+        "peakHours": ["08:00-11:00", "17:00-20:00"],
+        "nonPeakHours": ["05:00-08:00", "11:00-17:00", "20:00-22:00"],
+        "extendedHours": ["22:00-23:00"]
+      }
+    },
+    {
+      "id": "green",
+      "name": "Green Line",
+      "route": "Chennai Central ↔ St. Thomas Mount",
+      "weekday": {
+        "firstTrain": {
+          "fromCentral": "05:02",
+          "fromStThomas": "05:01"
+        },
+        "lastTrain": {
+          "fromCentral": "23:00",
+          "fromStThomas": "23:00"
+        },
+        "frequency": {
+          "peak": 12,
+          "nonPeak": 14,
+          "extended": 30
+        },
+        "peakHours": ["08:00-11:00", "17:00-20:00"],
+        "nonPeakHours": ["05:00-08:00", "11:00-17:00", "20:00-22:00"],
+        "extendedHours": ["22:00-23:00"]
+      },
+      "saturday": {
+        "firstTrain": {
+          "fromCentral": "05:02",
+          "fromStThomas": "05:01"
+        },
+        "lastTrain": {
+          "fromCentral": "23:00",
+          "fromStThomas": "23:00"
+        },
+        "frequency": {
+          "peak": 12,
+          "nonPeak": 14,
+          "extended": 30
+        },
+        "peakHours": ["08:00-11:00", "17:00-20:00"],
+        "nonPeakHours": ["05:00-08:00", "11:00-17:00", "20:00-22:00"],
+        "extendedHours": ["22:00-23:00"]
+      }
+    }
+  ],
+  "stations": [
+    { "name": "Washermanpet", "lat": 13.1054, "lon": 80.2894, "lines": ["blue"], "order": { "blue": 0 } },
+    { "name": "Mannadi", "lat": 13.0961, "lon": 80.2842, "lines": ["blue"], "order": { "blue": 1 } },
+    { "name": "High Court", "lat": 13.0902, "lon": 80.2785, "lines": ["blue"], "order": { "blue": 2 } },
+    { "name": "Government Estate", "lat": 13.0850, "lon": 80.2750, "lines": ["blue"], "order": { "blue": 3 } },
+    { "name": "LIC", "lat": 13.0790, "lon": 80.2710, "lines": ["blue"], "order": { "blue": 4 } },
+    { "name": "Thousand Lights", "lat": 13.0650, "lon": 80.2600, "lines": ["blue"], "order": { "blue": 5 } },
+    { "name": "AG-DMS", "lat": 13.0589, "lon": 80.2585, "lines": ["blue"], "order": { "blue": 6 } },
+    { "name": "Teynampet", "lat": 13.0450, "lon": 80.2502, "lines": ["blue"], "order": { "blue": 7 } },
+    { "name": "Nandanam", "lat": 13.0333, "lon": 80.2403, "lines": ["blue"], "order": { "blue": 8 } },
+    { "name": "Saidapet", "lat": 13.0208, "lon": 80.2230, "lines": ["blue"], "order": { "blue": 9 } },
+    { "name": "Little Mount", "lat": 13.0148, "lon": 80.2253, "lines": ["blue"], "order": { "blue": 10 } },
+    { "name": "Guindy", "lat": 13.0067, "lon": 80.2206, "lines": ["blue"], "order": { "blue": 11 } },
+    { "name": "Alandur", "lat": 13.0026, "lon": 80.2062, "lines": ["blue", "green"], "order": { "blue": 12, "green": 15 } },
+    { "name": "Nanganallur Road", "lat": 13.0026, "lon": 80.1837, "lines": ["blue"], "order": { "blue": 13 } },
+    { "name": "Meenambakkam", "lat": 12.9851, "lon": 80.1650, "lines": ["blue"], "order": { "blue": 14 } },
+    { "name": "Airport", "lat": 12.9941, "lon": 80.1709, "lines": ["blue"], "order": { "blue": 15 } },
+    { "name": "Chennai Central", "lat": 13.0827, "lon": 80.2707, "lines": ["green"], "order": { "green": 0 } },
+    { "name": "Egmore", "lat": 13.0732, "lon": 80.2609, "lines": ["green"], "order": { "green": 1 } },
+    { "name": "Nehru Park", "lat": 13.0755, "lon": 80.2525, "lines": ["green"], "order": { "green": 2 } },
+    { "name": "Kilpauk Medical College", "lat": 13.0795, "lon": 80.2425, "lines": ["green"], "order": { "green": 3 } },
+    { "name": "Pachaiyappa's College", "lat": 13.0825, "lon": 80.2355, "lines": ["green"], "order": { "green": 4 } },
+    { "name": "Shenoy Nagar", "lat": 13.0855, "lon": 80.2275, "lines": ["green"], "order": { "green": 5 } },
+    { "name": "Anna Nagar East", "lat": 13.0885, "lon": 80.2195, "lines": ["green"], "order": { "green": 6 } },
+    { "name": "Anna Nagar Tower", "lat": 13.0915, "lon": 80.2105, "lines": ["green"], "order": { "green": 7 } },
+    { "name": "Thirumangalam", "lat": 13.0875, "lon": 80.2015, "lines": ["green"], "order": { "green": 8 } },
+    { "name": "Koyambedu", "lat": 13.0705, "lon": 80.1945, "lines": ["green"], "order": { "green": 9 } },
+    { "name": "CMBT", "lat": 13.0625, "lon": 80.1915, "lines": ["green"], "order": { "green": 10 } },
+    { "name": "Arumbakkam", "lat": 13.0555, "lon": 80.1995, "lines": ["green"], "order": { "green": 11 } },
+    { "name": "Vadapalani", "lat": 13.0505, "lon": 80.2125, "lines": ["green"], "order": { "green": 12 } },
+    { "name": "Ashok Nagar", "lat": 13.0355, "lon": 80.2095, "lines": ["green"], "order": { "green": 13 } },
+    { "name": "Ekkattuthangal", "lat": 13.0215, "lon": 80.2075, "lines": ["green"], "order": { "green": 14 } },
+    { "name": "St. Thomas Mount", "lat": 12.9945, "lon": 80.2003, "lines": ["green"], "order": { "green": 16 } }
+  ]
+}

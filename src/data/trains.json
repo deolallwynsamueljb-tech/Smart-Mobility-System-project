@@ -1,0 +1,328 @@
+{
+  "stations": [
+    { "code": "MAS", "name": "Chennai Central", "lat": 13.0827, "lon": 80.2707 },
+    { "code": "MSB", "name": "Chennai Beach", "lat": 13.0889, "lon": 80.2846 },
+    { "code": "MMC", "name": "Moore Market Complex", "lat": 13.0864, "lon": 80.2747 },
+    { "code": "AVD", "name": "Avadi", "lat": 13.1147, "lon": 80.1093 },
+    { "code": "PTMS", "name": "Pattabiram", "lat": 13.1375, "lon": 80.1605 },
+    { "code": "TRL", "name": "Tiruvallur", "lat": 13.1432, "lon": 79.9093 },
+    { "code": "AJJ", "name": "Arakkonam Junction", "lat": 13.0849, "lon": 79.6712 },
+    { "code": "VLCY", "name": "Velachery", "lat": 12.9750, "lon": 80.2220 },
+    { "code": "TBM", "name": "Tambaram", "lat": 12.9249, "lon": 80.1275 },
+    { "code": "KBT", "name": "Korukkupet", "lat": 13.1095, "lon": 80.2733 },
+    { "code": "TRT", "name": "Tirumalpur", "lat": 13.0543, "lon": 79.5802 },
+    { "code": "PAB", "name": "Pattabiram Military Siding", "lat": 13.1358, "lon": 80.1655 }
+  ],
+  "routes": [
+    {
+      "trainNo": "43001",
+      "type": "EMU",
+      "direction": "MSB-MAS",
+      "stations": [
+        { "code": "MSB", "departure": "00:15" },
+        { "code": "MMC", "departure": "01:05" }
+      ]
+    },
+    {
+      "trainNo": "43551",
+      "type": "EMU",
+      "direction": "AVD-AJJ",
+      "stations": [
+        { "code": "AVD", "departure": "04:00" },
+        { "code": "PTMS", "departure": "04:20" }
+      ]
+    },
+    {
+      "trainNo": "43553",
+      "type": "EMU",
+      "direction": "AVD-AJJ",
+      "stations": [
+        { "code": "AVD", "departure": "05:05" },
+        { "code": "PTMS", "departure": "05:25" }
+      ]
+    },
+    {
+      "trainNo": "43501",
+      "type": "EMU",
+      "direction": "MSB-AJJ",
+      "stations": [
+        { "code": "MSB", "departure": "03:50" },
+        { "code": "MMC", "departure": "04:30" },
+        { "code": "AVD", "departure": "05:00" },
+        { "code": "PTMS", "departure": "05:42" },
+        { "code": "TRL", "departure": "06:05" }
+      ]
+    },
+    {
+      "trainNo": "43101",
+      "type": "EMU",
+      "direction": "MSB-AVD",
+      "stations": [
+        { "code": "MSB", "departure": "04:15" },
+        { "code": "MMC", "departure": "04:55" },
+        { "code": "AVD", "departure": "05:20" }
+      ]
+    },
+    {
+      "trainNo": "43803",
+      "type": "EMU",
+      "direction": "VLCY-AJJ",
+      "stations": [
+        { "code": "VLCY", "departure": "04:15" },
+        { "code": "MMC", "departure": "05:03" },
+        { "code": "AVD", "departure": "05:38" },
+        { "code": "PTMS", "departure": "06:30" }
+      ]
+    },
+    {
+      "trainNo": "43201",
+      "type": "EMU",
+      "direction": "MSB-AVD",
+      "stations": [
+        { "code": "MSB", "departure": "04:30" },
+        { "code": "MMC", "departure": "05:10" },
+        { "code": "AVD", "departure": "05:45" }
+      ]
+    },
+    {
+      "trainNo": "43203",
+      "type": "EMU",
+      "direction": "MSB-AVD",
+      "stations": [
+        { "code": "MSB", "departure": "05:00" },
+        { "code": "MMC", "departure": "05:40" },
+        { "code": "AVD", "departure": "06:20" }
+      ]
+    },
+    {
+      "trainNo": "43103",
+      "type": "EMU",
+      "direction": "MSB-AVD",
+      "stations": [
+        { "code": "MSB", "departure": "05:15" },
+        { "code": "MMC", "departure": "05:55" },
+        { "code": "AVD", "departure": "06:25" }
+      ]
+    },
+    {
+      "trainNo": "43701",
+      "type": "EMU",
+      "direction": "VLCY-AVD",
+      "stations": [
+        { "code": "VLCY", "departure": "05:20" },
+        { "code": "MMC", "departure": "06:08" },
+        { "code": "AVD", "departure": "06:50" }
+      ]
+    },
+    {
+      "trainNo": "43205",
+      "type": "EMU",
+      "direction": "MSB-AVD",
+      "stations": [
+        { "code": "MSB", "departure": "05:40" },
+        { "code": "MMC", "departure": "06:20" },
+        { "code": "AVD", "departure": "07:00" }
+      ]
+    },
+    {
+      "trainNo": "43503",
+      "type": "EMU",
+      "direction": "MSB-AJJ",
+      "stations": [
+        { "code": "MSB", "departure": "06:00" },
+        { "code": "MMC", "departure": "06:40" },
+        { "code": "AVD", "departure": "07:10" },
+        { "code": "PTMS", "departure": "08:05" },
+        { "code": "TRL", "departure": "08:30" }
+      ]
+    },
+    {
+      "trainNo": "43105",
+      "type": "EMU",
+      "direction": "MSB-AVD",
+      "stations": [
+        { "code": "MSB", "departure": "06:20" },
+        { "code": "MMC", "departure": "07:00" },
+        { "code": "AVD", "departure": "07:30" }
+      ]
+    },
+    {
+      "trainNo": "43403",
+      "type": "EMU",
+      "direction": "MSB-PTMS",
+      "stations": [
+        { "code": "MSB", "departure": "06:30" },
+        { "code": "MMC", "departure": "07:10" },
+        { "code": "AVD", "departure": "07:40" },
+        { "code": "PTMS", "departure": "08:30" }
+      ]
+    },
+    {
+      "trainNo": "43207",
+      "type": "EMU",
+      "direction": "MSB-AVD",
+      "stations": [
+        { "code": "MSB", "departure": "06:50" },
+        { "code": "MMC", "departure": "07:30" },
+        { "code": "AVD", "departure": "08:05" }
+      ]
+    },
+    {
+      "trainNo": "43651",
+      "type": "EMU",
+      "direction": "VLCY-AVD",
+      "stations": [
+        { "code": "VLCY", "departure": "06:05" },
+        { "code": "MSB", "departure": "06:50" },
+        { "code": "AVD", "departure": "07:40" }
+      ]
+    },
+    {
+      "trainNo": "43107",
+      "type": "EMU",
+      "direction": "MSB-AVD",
+      "stations": [
+        { "code": "MSB", "departure": "07:15" },
+        { "code": "MMC", "departure": "07:55" },
+        { "code": "AVD", "departure": "08:35" }
+      ]
+    },
+    {
+      "trainNo": "43505",
+      "type": "EMU",
+      "direction": "MSB-AJJ",
+      "stations": [
+        { "code": "MSB", "departure": "07:40" },
+        { "code": "MMC", "departure": "08:20" },
+        { "code": "AVD", "departure": "08:50" },
+        { "code": "PTMS", "departure": "09:30" },
+        { "code": "TRL", "departure": "09:55" }
+      ]
+    },
+    {
+      "trainNo": "43209",
+      "type": "EMU",
+      "direction": "MSB-AVD",
+      "stations": [
+        { "code": "MSB", "departure": "07:45" },
+        { "code": "MMC", "departure": "08:25" },
+        { "code": "AVD", "departure": "09:00" }
+      ]
+    },
+    {
+      "trainNo": "43003",
+      "type": "EMU",
+      "direction": "MSB-MMC",
+      "stations": [
+        { "code": "MSB", "departure": "07:50" },
+        { "code": "MMC", "departure": "08:35" }
+      ]
+    },
+    {
+      "trainNo": "43211",
+      "type": "EMU",
+      "direction": "MSB-AVD",
+      "stations": [
+        { "code": "MSB", "departure": "08:05" },
+        { "code": "MMC", "departure": "08:45" },
+        { "code": "AVD", "departure": "09:20" }
+      ]
+    },
+    {
+      "trainNo": "43407",
+      "type": "EMU",
+      "direction": "MSB-PTMS",
+      "stations": [
+        { "code": "MSB", "departure": "08:20" },
+        { "code": "MMC", "departure": "09:00" },
+        { "code": "AVD", "departure": "09:30" },
+        { "code": "PTMS", "departure": "10:35" }
+      ]
+    },
+    {
+      "trainNo": "43653",
+      "type": "EMU",
+      "direction": "VLCY-AVD",
+      "stations": [
+        { "code": "VLCY", "departure": "07:25" },
+        { "code": "MSB", "departure": "08:10" },
+        { "code": "AVD", "departure": "09:05" }
+      ]
+    },
+    {
+      "trainNo": "43213",
+      "type": "EMU",
+      "direction": "MSB-AVD",
+      "stations": [
+        { "code": "MSB", "departure": "08:40" },
+        { "code": "MMC", "departure": "09:20" },
+        { "code": "AVD", "departure": "09:55" }
+      ]
+    },
+    {
+      "trainNo": "43005",
+      "type": "EMU",
+      "direction": "MSB-MMC",
+      "stations": [
+        { "code": "MSB", "departure": "08:55" },
+        { "code": "MMC", "departure": "09:40" }
+      ]
+    },
+    {
+      "trainNo": "43409",
+      "type": "EMU",
+      "direction": "MSB-PTMS",
+      "stations": [
+        { "code": "MSB", "departure": "09:10" },
+        { "code": "MMC", "departure": "09:50" },
+        { "code": "AVD", "departure": "10:20" },
+        { "code": "PTMS", "departure": "11:10" }
+      ]
+    },
+    {
+      "trainNo": "43215",
+      "type": "EMU",
+      "direction": "MSB-AVD",
+      "stations": [
+        { "code": "MSB", "departure": "09:15" },
+        { "code": "MMC", "departure": "10:00" },
+        { "code": "AVD", "departure": "10:35" }
+      ]
+    },
+    {
+      "trainNo": "43009",
+      "type": "EMU",
+      "direction": "MSB-MMC",
+      "stations": [
+        { "code": "MSB", "departure": "09:25" },
+        { "code": "MMC", "departure": "10:10" }
+      ]
+    },
+    {
+      "trainNo": "43219",
+      "type": "EMU",
+      "direction": "MSB-AVD",
+      "stations": [
+        { "code": "MSB", "departure": "09:35" },
+        { "code": "MMC", "departure": "10:20" },
+        { "code": "AVD", "departure": "11:05" }
+      ]
+    },
+    {
+      "trainNo": "43507",
+      "type": "EMU",
+      "direction": "MSB-AJJ",
+      "stations": [
+        { "code": "MSB", "departure": "10:05" },
+        { "code": "MMC", "departure": "10:00" },
+        { "code": "AVD", "departure": "10:40" },
+        { "code": "PTMS", "departure": "11:10" },
+        { "code": "TRL", "departure": "11:55" }
+      ]
+    }
+  ],
+  "averageFrequency": {
+    "peak": 15,
+    "offPeak": 30
+  }
+}
